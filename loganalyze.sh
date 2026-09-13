@@ -10,7 +10,7 @@ if [ $# -eq 1 ]; then
       exit 1
    fi
 elif [ $# -gt 1 ]; then
-   echo -e "usage: more than 1 argument is not allowed.\n"
+   echo -e "usage: more than 1 (one) argument is not allowed.\n"
    exit 2
 fi
 
